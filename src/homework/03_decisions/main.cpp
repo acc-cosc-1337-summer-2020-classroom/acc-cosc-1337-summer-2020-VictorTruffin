@@ -29,7 +29,7 @@ int main()
 	string letter_grade;
 	int credit_hours, sum_credit_hours = 0, sum_credit_points = 0;
 
-	cout << "Enter letter grade: ";
+	cout << "Enter letter grade: "; 
 	cin >> letter_grade;
 	cout << "Enter credit hours: ";
 	cin >> credit_hours;
@@ -55,4 +55,5 @@ int main()
 	cout << "GPA: " << gpa;
 
 	return 0;
+
 }
