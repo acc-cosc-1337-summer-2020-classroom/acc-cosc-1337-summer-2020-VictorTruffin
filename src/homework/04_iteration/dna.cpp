@@ -7,6 +7,8 @@ Iterate string count Gs and Cs, divide count by string length.
 Return quotient.
 */
 
+
+
 double get_gc_content(std::string &dna)
 {
 	double result = 0;

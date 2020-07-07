@@ -2,6 +2,7 @@
 #include "catch.hpp"
 #include "decisions.h"
 
+
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }

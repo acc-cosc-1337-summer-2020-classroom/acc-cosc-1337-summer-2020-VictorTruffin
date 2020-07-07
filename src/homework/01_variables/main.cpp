@@ -1,6 +1,7 @@
 ﻿//write include statements
 #include<iostream>
 #include "variables.h"
+//
 
 //write namespace using statement for cout
 using namespace std;

@@ -1,6 +1,7 @@
 #include "decisions.h"
 //write include statement for decisions header
 
+
 //Write code for function get_grade_points that accepts a string letter_grade and returns 
 //the grade_points for as follows:
 //given grade "A" returns 4
