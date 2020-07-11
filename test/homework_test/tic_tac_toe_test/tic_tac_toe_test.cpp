@@ -35,3 +35,29 @@ tic_tac_toe.mark_board(8);
 REQUIRE(tic_tac_toe.game_over()==true);
 
 }
+
+TEST_CASE("SETTING PLAYER TO 'O' OR 'X'")
+{
+	TicTacToe tic_tac_toe;
+	tic_tac_toe.start_game("X");
+
+	REQUIRE(tic_tac_toe.get_player()=="X");
+
+	tic_tac_toe.start_game("O");
+
+	REQUIRE(tic_tac_toe.get_player()=="O");
+
+}
+
+//im not sure how to write the write this section of assigning x to 147 ext, I have nothing to use as reference 
+//
+/*
+TEST_CASE("CHEKING WIN BY COLUMN")
+{
+	TicTacToe tic_tac_toe;
+	tic_tac_toe.start_game("X");
+
+	REQUIRE(tic_tac_toe.game_over()==true);
+
+}
+*/
