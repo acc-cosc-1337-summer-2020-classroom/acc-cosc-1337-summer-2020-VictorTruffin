@@ -21,7 +21,7 @@ bool TicTacToe::game_over()
     }
     if(check_board_full()==true)
     {
-        winner == "C";
+        winner = "C";
         return check_board_full();
     }
 
@@ -182,7 +182,7 @@ void TicTacToe::set_winner()
         winner = "O";
     }
     else 
-    winner == "X";
+    winner = "X";
 
     
     
